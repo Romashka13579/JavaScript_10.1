@@ -10,10 +10,61 @@ body{
     align-items: center;
 }
 .main-content{
-    display: flex;
     background: rgb(253, 168, 168);
     align-items: center;
+    padding: 40px;
 }
+.block,
 .btns{
-    width:200px;
+    display: flex;
+    width: 300px;
+    border: 3px black solid;
+    box-sizing: border-box;
+    background: wheat;
+    margin-bottom: 30px;
+    -webkit-box-shadow: -5px 5px 34px -6px rgba(34, 60, 80, 0.9);
+    -moz-box-shadow: -5px 5px 34px -6px rgba(34, 60, 80, 0.9);
+    box-shadow: -5px 5px 34px -6px rgba(34, 60, 80, 0.9);
+}
+.block{
+    margin-bottom: 15px;
+}
+.btntxt{
+    float: left;
+    width: 270px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+.btntxt::placeholder{
+    color: black;
+}
+.block-btn,
+.add-more{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url(../img/plus-solid.svg);
+    background-size: 30px 30px;
+    background-position: center;
+    outline: none;
+    border: none;
+}
+.block-txt{
+    font-size: 20px;
+    padding: 2px;
+    width: 270px;
+    text-align: center;
+}
+.block-btn{
+    width: 26px;
+    height: 26px;
+    background: url(../img/minus-solid.svg);
+    background-size: 26px 26px;
+    background-position: center;
 }
