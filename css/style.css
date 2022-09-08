@@ -28,6 +28,7 @@ body{
 }
 .block{
     margin-bottom: 15px;
+    transition: all 0.5s;
 }
 .btntxt{
     float: left;
