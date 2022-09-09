@@ -22,11 +22,9 @@ addmore.addEventListener('click', (e) => {
     var block_btns = document.querySelectorAll(".block-btn");
     block_btns.forEach(blockBtn => {
         blockBtn.addEventListener('click', (e) => {
-            if(block_btns.length > 2){
-                e.preventDefault();
-                blockBtn.parentElement.style.opacity = "0"
-                setInterval( () => {blockBtn.parentElement.remove();}, 500);
-            }
+            e.preventDefault();
+            blockBtn.parentElement.style.opacity = "0"
+            setInterval( () => {blockBtn.parentElement.remove();}, 500);
         });
     });
 });
